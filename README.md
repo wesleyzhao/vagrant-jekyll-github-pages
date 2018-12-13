@@ -54,7 +54,7 @@ __WARNING__
 I have had issues serving updated local files. Adding the `livereload` flag  along with `force_polling` solved this for me. So this is how I serve on my box:
 
 ```
-$ bundle exec jekyll serve --host 0.0.0.0 --force_pulling -l
+$ bundle exec jekyll serve --host 0.0.0.0 --force_polling -l
 ```
 
 By default you can now go to [http://localhost:4000/](http://localhost:4000) to see your site
